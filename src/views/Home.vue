@@ -41,7 +41,7 @@
         </div>
       </div>
       <div v-if="!loading && !weatherData">
-        No Weather Data To Show!
+        No weather data of your current location can be shown! Please make sure you allowed the browser to share your current location.
       </div>
       <div class="mt-4">
         <div>You called Weather API : <b>{{apiCallingTimes}}</b> times.</div>
